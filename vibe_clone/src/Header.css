@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 306px;
+    background-color: #f2f2f2;
+}
+
+.headCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 45px;
+}
+
+.headCardImg {
+    min-width: 230px;
+    height: 230px;
+    background-image: url("https://music-phinf.pstatic.net/20210209_37/1612852778446sd6P6_JPEG/1%B9%F8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cardInfoBox {
+    padding: 28px;
+    height: 230px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.badge {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 800;
+    background-color: #7e01e5;
+    border-radius: 48px;
+}
+
+.cardInfoBox h2 {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.cardInfoBox p {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    color: #939393;
+}
+
+.cardInfoBox span {
+    font-size: 13px;
+    color: #939393;
+}
+
+.cardInfoBox span.cardInfo {
+    font-weight: 700;
+}
+
+.cardInfoBox span.cardDate::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 3px;
+    height: 3px;
+    margin: 10px 6px 0;
+    background-color: #939393;
+    border-radius: 50%;
+}

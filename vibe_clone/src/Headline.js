@@ -1,8 +1,8 @@
-import "./Header.css";
+import "./Headline.css";
 
-function Header() {
+function Headline() {
     return (
-        <header>
+        <div className="Headline">
             <div className="headCard">
                 <div className="headCardImg"></div>
                 <div className="cardInfoBox">
@@ -17,8 +17,8 @@ function Header() {
                     <span className="cardDate">2021.02.11</span>
                 </div>
             </div>
-        </header>
+        </div>
     );
 }
 
-export default Header;
+export default Headline;

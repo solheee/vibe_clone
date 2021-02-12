@@ -1,7 +1,7 @@
-import Header from "./Header";
+import Headline from "./Headline";
 
 function Main() {
-    return Header();
+    return Headline();
 }
 
 export default Main;
